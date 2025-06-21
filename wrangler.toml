@@ -1,0 +1,12 @@
+name = "lgame"
+main = "src/optimized.js"
+compatibility_date = "2025-06-20"
+
+# 🔒 简化方案：单KV命名空间 + 数据前缀分离
+# 所有数据存储在一个KV中，通过键前缀区分类型
+[[kv_namespaces]]
+binding = "LEADERBOARD"
+id = "9ad788d367d9432eb0d37040d11dd9c2"
+
+[env.production]
+name = "test4"
